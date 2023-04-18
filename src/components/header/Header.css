@@ -1,0 +1,15 @@
+.header{
+   
+    width: 100%;
+    background-color: black;
+}
+.title{
+    margin: 0;
+    padding: 0;
+    color: #e9b441;
+    text-align: center;
+    font-size: 24px;
+    padding: 1.15%;
+    font-family:'Lucida Sans Unicode', 'Lucida Sans Regular' , Geneva, Verdana, sans-serif;
+
+}
