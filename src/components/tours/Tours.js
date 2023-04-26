@@ -1,24 +1,14 @@
-import './Tours.css'
+ import './Tours.css';
+import Tour from "../tours/tour/Tour";
 
 function Tours(props) {
-    return (
-        <div className='Container'>
-          <h3 className='TopDescrption'>Most visited places list</h3>
-          <div className='PlaceContainer'>
-          {props.data2.map((place) =>{
+  return (
+    <div className='Container' >
+      <h3 className='TopDescrption'>Most visited places list</h3>
+      <Tour data3={props.data2}/>
 
-            return (
-            <div key={place.id}>
-                <div className='PlaceDiv' >
-                    <img className='PlaceImg' src={place.image} alt={place.name}></img>
-                    <h4 className='PlaceName'>{place.name}</h4>
-                </div><hr></hr>
-           </div>
-            )
-          })}</div>
-
-        </div>
-    )
+    </div>
+)
 }
 
 export default Tours;

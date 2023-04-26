@@ -7,9 +7,11 @@
     bottom: 0;
     left: 0;
     right: 0;
+    align-items: center;
 }
 .auother{
-    font-size: 14px;
+    margin: 15px;
+    font-size: 12px;
     text-transform: capitalize;
     color: #fff;
     font-family:'Lucida Sans Unicode', 'Lucida Sans Regular' , Geneva, Verdana, sans-serif;
@@ -17,7 +19,7 @@
 .auother a {
 
     color: #e9b441;
-    font-size: 14px;
+    font-size: 12px;
     text-decoration: none;
     transition: .2s ease-in-out ;
 }
@@ -27,6 +29,7 @@
 
 
 .socials{
+    margin: 15px;
     list-style: none;
     display: flex;
     align-items: center;
@@ -34,14 +37,14 @@
 }
 
 .socials li{
-    margin: 0 5px;
+    margin: 0 3px;
 }
 
 .socials a{
     text-decoration: none;
     color: #fff;
     padding: 5px;
-    font-size: 14px;
+    font-size: 12px;
     font-family:'Lucida Sans Unicode', 'Lucida Sans Regular' , Geneva, Verdana, sans-serif;
     transition: .2s ease-in-out ;
     

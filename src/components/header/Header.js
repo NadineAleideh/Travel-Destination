@@ -1,14 +1,25 @@
- import './Header.css';
+import './Header.css';
+import { Link } from 'react-router-dom';
 
 
+function Header() {
+    return (
+        <>
+            <nav className='nav'>
 
-function Header(){
-    return(
-        <div className="header">
-        <h1 className="title">Travel Destination WebApp</h1>
-        </div>
+                <div className="heading">
+                    <h1>TravelD</h1>
+                </div>
+
+                <ul className="nav-links">
+                    <li><Link to="/" className="active">Home</Link></li>
+                    
+                </ul>
+
+            </nav>
+        </>
     )
-    
+
 }
 
 export default Header;
