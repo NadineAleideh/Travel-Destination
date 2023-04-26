@@ -1,15 +1,57 @@
-.header{
-   
-    width: 100%;
-    background-color: black;
-}
-.title{
-    margin: 0;
-    padding: 0;
-    color: #e9b441;
-    text-align: center;
-    font-size: 24px;
-    padding: 1.15%;
-    font-family:'Lucida Sans Unicode', 'Lucida Sans Regular' , Geneva, Verdana, sans-serif;
 
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 8vh;
+    background-color: black;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-family: 'Lucida Sans Unicode', 'Lucida Sans Regular', Geneva, Verdana, sans-serif;
+}
+
+.heading {
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 16px;
+    font-family: 'Lucida Sans Unicode', 'Lucida Sans Regular', Geneva, Verdana, sans-serif;
+}
+
+.heading h1{
+    margin: 0;
+}
+.nav-links {
+    display: flex;
+    justify-content: space-between;
+    width: 8%;
+}
+
+.nav-links li {
+    list-style: none;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: 12px;
+    padding: 8px 14px;
+}
+
+.nav-links a:hover:not(.active) {
+    background: #e9b441;
+    border-radius: 20px;
+    transition: .1s;
+}
+
+.nav-links li a.active {
+    background: #e9b441;
+    border-radius: 4px;
+}
+
+.nav-links li a.active:hover {
+    border-radius: 20px;
+    transition: .1s;
 }
